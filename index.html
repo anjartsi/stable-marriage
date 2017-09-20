@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Stable Marriage</title>
+</head>
+<body>
+	<h1>Stable Marriage</h1>
+	<div class="container" id="inputCont">
+		<h2>The Problem Instance</h2>
+		<div class="input-group">
+			<h3>Problem Size</h3>
+			<label id="problemSizeLabel">n = 3</label>
+			<br>
+			<input type="range" id="problemSize" name="problemSize" min="1" max="10" value="10">
+		</div>
+		<div>
+			<div class="preference-list">
+				<h4>Men</h3>
+				<div id="preferenceMen"></div>
+			</div>
+
+			<div class="preference-list" >
+				<h4>Women</h3>
+				<div id="preferenceWomen"></div>
+			</div>
+			
+		</div>
+
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

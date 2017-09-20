@@ -1,0 +1,14 @@
+.container {
+	border: 1px solid black;
+}
+
+.preference-list {
+	float: left;
+	border: 1px solid black;
+}
+
+.preference-list label {
+	display: inline-block;
+	width: 30px;
+	margin-left: 10px
+}
